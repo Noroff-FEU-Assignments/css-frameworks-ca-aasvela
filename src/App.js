@@ -1,4 +1,4 @@
-import './App.css';
+import './sass/style.scss';
 import ContentNavBar from './compontents/ContentNavBar';
 import ContentHome from './compontents/ContentHome';
 import ContentTabs from './compontents/ContentTabs';
