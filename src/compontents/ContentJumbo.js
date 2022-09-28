@@ -5,7 +5,7 @@ import Image from 'react-bootstrap';
 
 function ContentJumbo() {
   return (
-    <Container fluid>
+    <Container className='container-fluid'>
       <Row>
         <Col>
           <img fluid src="images/carousel/carousel-1.jpg"></img>
