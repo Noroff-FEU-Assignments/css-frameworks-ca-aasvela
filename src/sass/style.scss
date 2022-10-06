@@ -1,29 +1,12 @@
+@import 'partials/variables';
+@import 'partials/tabs';
 @import 'partials/navbar';
-@import 'partials/home.scss';
+@import 'partials/typography';
+@import 'partials/layout';
+@import 'partials/base';
 
 //custom
 
-$primary: #e92569;
-$light: #efefef;
-
 //bootstrap scss
-
-// scss-docs-start theme-colors-map
-$theme-colors: (
-  'primary': $primary,
-  //   'secondary': $secondary,
-  //   'success': $success,
-  //   'info': $info,
-  //   'warning': $warning,
-  //   'danger': $danger,
-  'light': $light,
-  //   'dark': $dark,
-);
-
-$font-family-base: 'Lato', sans-serif;
-$headings-color: $primary;
-
-$body-bg: #efefef;
-$navbar-light-brand-color: $primary;
 
 @import '~bootstrap/scss/bootstrap';

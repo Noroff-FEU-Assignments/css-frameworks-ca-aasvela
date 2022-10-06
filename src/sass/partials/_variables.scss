@@ -1,0 +1,28 @@
+$primary: #e92569;
+$light: #efefef;
+
+$body-bg: #c7c7c7;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  //   'secondary': $secondary,
+  //   'success': $success,
+  //   'info': $info,
+  //   'warning': $warning,
+  //   'danger': $danger,
+  'light': $light,
+  //   'dark': $dark,
+);
+
+.col {
+  background-color: #efefef;
+}
+
+.tab {
+  background-color: #efefef;
+}
+
+.nav-tab {
+  background-color: #efefef;
+}
