@@ -1,6 +1,8 @@
+//Custom
+
 $primary: #e92569;
 $light: #efefef;
-
+$dark: #0a0a0a;
 $body-bg: #c7c7c7;
 
 // scss-docs-start theme-colors-map
@@ -12,8 +14,10 @@ $theme-colors: (
   //   'warning': $warning,
   //   'danger': $danger,
   'light': $light,
-  //   'dark': $dark,
+  'dark': $dark,
 );
+
+$border-radius: 5px;
 
 .col {
   background-color: #efefef;
@@ -22,3 +26,6 @@ $theme-colors: (
 // .container-fluid {
 //   --bs-gutter-x: 0rem;
 // }
+$navbar-light-color: $dark;
+// $nav-link-padding-y: 1px;
+// $nav-link-padding-x: 1px;

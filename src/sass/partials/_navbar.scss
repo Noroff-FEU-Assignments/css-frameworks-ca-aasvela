@@ -1,9 +1,14 @@
-.nav-heading {
-  font-family: 'Playfair Display', sans-serif;
-}
 .nav {
   background-color: $body-bg;
 }
 .nav-container {
   padding: 0;
+}
+.nav-link {
+  padding: 2px;
+}
+
+.nav-link.active {
+  background-color: $light;
+  border-radius: $border-radius;
 }

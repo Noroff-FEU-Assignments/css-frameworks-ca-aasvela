@@ -14,7 +14,7 @@ function Home() {
         <ContentNavBar />
 
         <ContentJumbo />
-        <Container>
+        <Container className="home-container">
           <h2>We do YAY things</h2>
           <p>
             Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi,
@@ -25,7 +25,10 @@ function Home() {
             sollicitudin in luctus a, varius eget massa.
           </p>
         </Container>
-        <ContentTabs />
+        <Container>
+          <ContentTabs />
+        </Container>
+
         <ContentFooter />
       </>
     </div>
