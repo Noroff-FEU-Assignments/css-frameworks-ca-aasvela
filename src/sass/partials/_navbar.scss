@@ -1,4 +1,9 @@
 .nav-heading {
   font-family: 'Playfair Display', sans-serif;
 }
-$navbar-light-brand-color: $primary;
+.nav {
+  background-color: $body-bg;
+}
+.nav-container {
+  padding: 0;
+}

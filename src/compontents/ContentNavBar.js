@@ -6,8 +6,8 @@ import Button from 'react-bootstrap/Button';
 
 function ContentNavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
+    <Navbar expand="lg">
+      <Container className="nav-container">
         <Navbar.Brand href="#home">
           <h1 className="nav-heading">The YAY Company</h1>
         </Navbar.Brand>
@@ -25,7 +25,7 @@ function ContentNavBar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">Go</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

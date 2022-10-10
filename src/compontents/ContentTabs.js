@@ -9,7 +9,7 @@ function ContentTabs() {
       <Tab eventKey="home" title="Home">
         <Row>
           <Col>
-            <img src="images/tab/tab-1.jpg"></img>
+            <img className="tab-img" src="images/tab/tab-1.jpg"></img>
           </Col>
           <Col>
             <p>
