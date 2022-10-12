@@ -1,86 +1,32 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import Contact from './Contact';
 import News from './News';
 import ContentHome from './ContentHome';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Link, Router, Routes } from 'react-router-dom';
 
 function ContentNavBar() {
   return (
-    <Router>
-      <Navbar expand="lg">
-        <Container className="nav-container">
-          <Navbar.Brand href="#home">
-            <h1 className="nav-heading">The YAY Company</h1>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" defaultActiveKey="/home">
-              <Nav.Link exact to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link to="/news">News</Nav.Link>
-              <Nav.Link to="/contact">Contact</Nav.Link>
-            </Nav>
-            <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Go</Button>
-            </Form>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/news">
-          <News />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-    </Router>
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="news">Books</Link>
+          </li>
+          <li>
+            <Link to="contact">Bananas</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Router path="/" element={<ContentHome />} />
+        <Router path="news" element={<News />} />
+        <Router path="contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 
 export default ContentNavBar;
-
-// function ContentNavBar() {
-//   return (
-//     <Navbar expand="lg">
-//       <Container className="nav-container">
-//         <Navbar.Brand href="#home">
-//           <h1 className="nav-heading">The YAY Company</h1>
-//         </Navbar.Brand>
-//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//         <Navbar.Collapse id="basic-navbar-nav">
-//           <Nav className="me-auto" defaultActiveKey="/home">
-//             <Nav.Link href="#home">Home</Nav.Link>
-//             <Nav.Link href="#link">News</Nav.Link>
-//             <Nav.Link href="#link">Contact</Nav.Link>
-//           </Nav>
-//           <Form className="d-flex">
-//             <Form.Control
-//               type="search"
-//               placeholder="Search"
-//               className="me-2"
-//               aria-label="Search"
-//             />
-//             <Button variant="outline-success">Go</Button>
-//           </Form>
-//         </Navbar.Collapse>
-//       </Container>
-//     </Navbar>
-//   );
-// }
-
-// export default ContentNavBar;
