@@ -5,13 +5,14 @@ import Col from 'react-bootstrap/Col';
 function ContentFooter() {
   return (
     <footer>
-      <div className="wide-container">
-        <Row>
-          <Col>1 of 1</Col>
-          <Col>hello@yay.com</Col>
-          <Col>Copyright 2020</Col>
-        </Row>
-      </div>
+      <Container fluid>
+        <div>
+          <p>dsfsdkjf</p>
+        </div>
+        <div>
+          <p>dsfsdkjf</p>
+        </div>
+      </Container>
     </footer>
   );
 }
