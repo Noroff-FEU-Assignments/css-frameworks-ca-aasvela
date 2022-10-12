@@ -1,7 +1,7 @@
 import Contact from './Contact';
 import News from './News';
 import ContentHome from './ContentHome';
-import { Link, Router, Routes } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function ContentNavBar() {
   return (
@@ -9,22 +9,24 @@ function ContentNavBar() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            {/* <Link to="/">Home</Link> */}
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="news">Books</Link>
+            {/* <Link to="news">Books</Link> */}
+            <NavLink to="news">News</NavLink>
           </li>
           <li>
-            <Link to="contact">Bananas</Link>
+            <NavLink to="contact">Contact</NavLink>
           </li>
         </ul>
       </nav>
 
-      <Routes>
-        <Router path="/" element={<ContentHome />} />
-        <Router path="news" element={<News />} />
-        <Router path="contact" element={<Contact />} />
-      </Routes>
+      {/* <Routes>
+        <Route  path="/" element={<ContentHome />} />
+        <Route path="news" element={<News />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes> */}
     </>
   );
 }
