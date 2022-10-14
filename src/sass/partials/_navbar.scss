@@ -10,7 +10,7 @@
 
 .nav-link.active {
   background-color: $light;
-  // border-radius: $border-radius;
+  border-radius: $border-radius;
 }
 .nav-tabs {
   --bs-nav-tabs-border-width: 0;
@@ -22,4 +22,7 @@
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #c7c7c7;
   border-bottom: var(--bs-nav-tabs-border-width) solid
     var(--bs-nav-tabs-border-color);
+}
+.btn-nav {
+  background-color: $primary !important;
 }

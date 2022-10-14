@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Vimeo } from 'react-bootstrap-icons';
+import { Youtube } from 'react-bootstrap-icons';
 
 function ContentFooter() {
   return (
@@ -8,6 +10,8 @@ function ContentFooter() {
       <Container fluid>
         <div>
           <p>dsfsdkjf</p>
+          <Vimeo />
+          <Youtube />
         </div>
         <div>
           <p>dsfsdkjf</p>

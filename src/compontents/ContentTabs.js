@@ -3,6 +3,8 @@ import Tabs from 'react-bootstrap/Tabs';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import { Twitter } from 'react-bootstrap-icons';
+import { Facebook } from 'react-bootstrap-icons';
 
 function ContentTabs() {
   return (
@@ -22,6 +24,8 @@ function ContentTabs() {
                     justo, a ullamcorper turpis. Cras vehicula pharetra lectus
                     non maximus. Sed condimentum mattis rhoncus.
                   </p>
+                  <Twitter />
+                  <Facebook />
                 </div>
               </Col>
             </Row>
