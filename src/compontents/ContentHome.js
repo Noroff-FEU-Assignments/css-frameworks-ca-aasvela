@@ -1,16 +1,25 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import ContentFooter from './ContentFooter';
-
 import ContentJumbo from './ContentJumbo';
-import ContentNavBar from './ContentNavBar';
 import ContentTabs from './ContentTabs';
 
 function Home() {
   return (
     <div className="wrapper">
       {/* <ContentNavBar /> */}
-      <ContentJumbo />
+      <Row>
+        <Col>
+        <ContentJumbo />
+        </Col>
+      </Row>
+      <Row>
+        <Col md="1">
+        </Col>
+        <Col md="10">
+        
       <Container className="home-container">
         <h2>We do YAY things</h2>
         <p>
@@ -27,6 +36,11 @@ function Home() {
       </Container>
 
       <ContentFooter />
+        </Col>
+        <Col md="1">
+
+        </Col>
+        </Row>
     </div>
   );
 }

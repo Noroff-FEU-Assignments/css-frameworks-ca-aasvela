@@ -4,10 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function ContentNavBar() {
   return (
     <>
+    <Row>
+      <Col md="1">
+      </Col>
+      <Col md="10">
       <Navbar expand="lg">
         <Container className="nav-container">
           <Navbar.Brand as={NavLink} to="/">
@@ -38,6 +44,11 @@ function ContentNavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      </Col>
+      <Col md="1">
+      </Col>
+    </Row>
+      
     </>
   );
 }

@@ -20,37 +20,3 @@ function App() {
 }
 
 export default App;
-
-// function App() {
-//   return <ContentHome />;
-// }
-
-// export default App;
-
-// function App() {
-//   return (
-//     <>
-//       <nav>
-//         <ul>
-//           <li>
-//             <Link to="/">Home</Link>
-//           </li>
-//           <li>
-//             <Link to="news">Books</Link>
-//           </li>
-//           <li>
-//             <Link to="contact">Bananas</Link>
-//           </li>
-//         </ul>
-//       </nav>
-//       <Routes>
-//         <Route path="/" element={<ContentHome />} />
-//         <Route path="news" element={<News />} />
-//         <Route path="contact" element={<Contact />} />
-//       </Routes>
-//       <ContentHome />
-//     </>
-//   );
-// }
-
-// export default App;

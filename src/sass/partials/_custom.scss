@@ -20,7 +20,7 @@ $theme-colors: (
 $border-radius: 5px;
 
 .col {
-  background-color: #efefef;
+  background-color: $body-bg;
 }
 
 // .container-fluid {

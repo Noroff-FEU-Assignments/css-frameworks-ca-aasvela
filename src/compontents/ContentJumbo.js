@@ -1,5 +1,4 @@
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
+
 
 function ContentJumbo() {
   return (
