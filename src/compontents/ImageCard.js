@@ -8,7 +8,7 @@ function ImageCard() {
   return (
     <>
       <Container>
-        <Row>
+        <Row className="news-row">
           <Col>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="images/news/news-1.jpg" />

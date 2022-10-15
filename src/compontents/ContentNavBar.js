@@ -35,12 +35,10 @@ function ContentNavBar() {
                   <Form.Control
                     type="search"
                     placeholder="Search"
-                    className="me-2"
+                    className="me-0"
                     aria-label="Search"
                   />
-                  <Button className="btn-nav" variant="nav">
-                    Go
-                  </Button>
+                  <Button variant="nav">Go</Button>
                 </Form>
               </Navbar.Collapse>
             </Container>

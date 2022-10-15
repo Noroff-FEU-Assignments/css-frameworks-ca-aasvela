@@ -8,12 +8,12 @@ import { Facebook } from 'react-bootstrap-icons';
 
 function ContentTabs() {
   return (
-    <Container>
+    <Container className="mb-3">
       <Tabs defaultActiveKey="home">
-        <Tab eventKey="home" title="Home">
-          <Container>
+        <Tab eventKey="home" title="First">
+          <Container className="tab-inner-container">
             <Row className="tab-row">
-              <Col className="tab-col">
+              <Col md="4" className="tab-col">
                 <img className="tab-img" src="images/tab/tab-1.jpg"></img>
               </Col>
               <Col className="tab-col">
@@ -50,10 +50,10 @@ function ContentTabs() {
           </Container>
         </Tab>
 
-        <Tab eventKey="profile" title="Profile">
+        <Tab eventKey="profile" title="Second">
           <p>blblblbl</p>
         </Tab>
-        <Tab eventKey="contact" title="Contact">
+        <Tab eventKey="contact" title="Third">
           <p>blblblbl</p>
         </Tab>
       </Tabs>

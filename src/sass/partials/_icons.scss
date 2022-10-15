@@ -5,7 +5,9 @@
     color: $dark;
   }
 }
-
+.icon-container-footer {
+  display: flex;
+}
 .icon-container-icons {
 }
 .icon-container-twitter {
@@ -14,10 +16,19 @@
 .icon-container-facebook {
   padding-left: 2rem;
 }
-
+.icon-container-vimeo {
+  padding-left: 2rem;
+}
+.icon-container-youtube {
+  padding-left: 2rem;
+}
 .icon {
 }
 .icon-twitter {
 }
 .icon-facebook {
+}
+.icon-vimeo {
+}
+.icon-youtube {
 }

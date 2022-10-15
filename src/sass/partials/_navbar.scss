@@ -1,18 +1,19 @@
-.nav {
-  background-color: $body-bg;
+.navbar {
+  background-color: #e9ecef;
 }
 .nav-container {
   padding: 0;
 }
 .nav-link {
   padding: 2px;
+  font-size: 20px !important;
+  .active {
+    background-color: $light;
+    border-radius: $border-radius;
+  }
 }
 
-.nav-link.active {
-  background-color: $light;
-  border-radius: $border-radius;
-}
-.nav-tabs {
+.nav-link .nav-tabs {
   --bs-nav-tabs-border-width: 0;
   --bs-nav-tabs-border-color: #dee2e6;
   --bs-nav-tabs-border-radius: 5px;
@@ -25,4 +26,11 @@
 }
 .btn-nav {
   background-color: $primary !important;
+  border-radius: 0 5px 5px 0 !important;
+
+  color: $light !important;
+  font-weight: bold !important;
+}
+.form-control {
+  border-radius: 5px 0 0 5px !important;
 }

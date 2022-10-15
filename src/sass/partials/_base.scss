@@ -8,9 +8,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  //   background-color: getColor(grey);
-  //   font-family: $font-primary;
   margin: 0;
+  background-image: radial-gradient(circle, #ffffff, #e5e5e5);
 }
 .wrapper {
   flex: 1 0 auto;
