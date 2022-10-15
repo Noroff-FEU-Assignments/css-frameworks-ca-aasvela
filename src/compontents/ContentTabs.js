@@ -24,8 +24,26 @@ function ContentTabs() {
                     justo, a ullamcorper turpis. Cras vehicula pharetra lectus
                     non maximus. Sed condimentum mattis rhoncus.
                   </p>
-                  <Twitter />
-                  <Facebook />
+                </div>
+                <div className="icon-container">
+                  <p>SHARE</p>
+                  <div className="icon-container-icons icon-container-twitter">
+                    <Twitter
+                      className="icon icon-twitter"
+                      width="2em"
+                      height="2em"
+                      fill="currentColor"
+                    />
+                  </div>
+                  <div className="icon-container-icons icon-container-facebook">
+                    <Facebook
+                      className="icon icon-facebook"
+                      width="2em"
+                      height="2em"
+                      fill="currentColor"
+                      p-d
+                    />
+                  </div>
                 </div>
               </Col>
             </Row>

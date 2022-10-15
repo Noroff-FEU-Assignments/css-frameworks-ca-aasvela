@@ -8,14 +8,34 @@ function ContentFooter() {
   return (
     <footer>
       <Container fluid>
-        <div>
-          <p>dsfsdkjf</p>
-          <Vimeo />
-          <Youtube />
-        </div>
-        <div>
-          <p>dsfsdkjf</p>
-        </div>
+        <Row>
+          <Col md="1"></Col>
+          <Col md="10">
+            <Row>
+              <Col>
+                <Container>
+                  <div className="icon-container">
+                    <div className="icon-container-icons icon-container-vimeo">
+                      <Vimeo className="icon icon-vimeo" />
+                    </div>
+                    <div className="icon-container-icons icon-container-youtube">
+                      <Youtube className="icon icon-youtube" />
+                    </div>
+                  </div>
+                </Container>
+              </Col>
+              <Col>
+                <Container className="footer-container">
+                  <p>hello@yay.com</p>
+                </Container>
+              </Col>
+              <Col>
+                <p>Copyright 2020</p>
+              </Col>
+            </Row>
+          </Col>
+          <Col md="1"></Col>
+        </Row>
       </Container>
     </footer>
   );
