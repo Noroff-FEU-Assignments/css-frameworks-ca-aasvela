@@ -9,17 +9,25 @@ function ContentFooter() {
     <footer>
       <Container fluid>
         <Row>
-          <Col md="1"></Col>
-          <Col md="10">
-            <Row>
+          <Col xs="1"></Col>
+          <Col xs="10">
+            <Row className="footer-row">
               <Col>
                 <Container>
                   <div className="icon-container">
                     <div className="icon-container-icons icon-container-vimeo">
-                      <Vimeo className="icon icon-vimeo" />
+                      <Vimeo
+                        className="icon icon-vimeo"
+                        width="2em"
+                        height="2em"
+                      />
                     </div>
                     <div className="icon-container-icons icon-container-youtube">
-                      <Youtube className="icon icon-youtube" />
+                      <Youtube
+                        className="icon icon-youtube"
+                        width="2em"
+                        height="2em"
+                      />
                     </div>
                   </div>
                 </Container>
@@ -34,7 +42,7 @@ function ContentFooter() {
               </Col>
             </Row>
           </Col>
-          <Col md="1"></Col>
+          <Col xs="1"></Col>
         </Row>
       </Container>
     </footer>

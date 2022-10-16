@@ -13,10 +13,10 @@ function ContentTabs() {
         <Tab eventKey="home" title="First">
           <Container className="tab-inner-container">
             <Row className="tab-row">
-              <Col md="4" className="tab-col">
+              <Col className="tab-col">
                 <img className="tab-img" src="images/tab/tab-1.jpg"></img>
               </Col>
-              <Col className="tab-col">
+              <Col md="8" className="tab-col">
                 <div className="tabs-container">
                   <p>
                     Morbi eget efficitur turpis. Vivamus pellentesque tortor
@@ -25,7 +25,7 @@ function ContentTabs() {
                     non maximus. Sed condimentum mattis rhoncus.
                   </p>
                 </div>
-                <div className="icon-container">
+                <div className="tabs-container">
                   <p>SHARE</p>
                   <div className="icon-container-icons icon-container-twitter">
                     <Twitter

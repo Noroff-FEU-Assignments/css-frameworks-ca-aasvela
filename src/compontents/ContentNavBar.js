@@ -11,8 +11,8 @@ function ContentNavBar() {
   return (
     <>
       <Row className="navbar-row">
-        <Col className="navbar-col" md="1"></Col>
-        <Col md="10">
+        <Col className="navbar-col" xs="1"></Col>
+        <Col xs="10">
           <Navbar expand="lg">
             <Container className="nav-container">
               <Navbar.Brand as={NavLink} to="/">
@@ -44,7 +44,7 @@ function ContentNavBar() {
             </Container>
           </Navbar>
         </Col>
-        <Col className="navbar-col" md="1"></Col>
+        <Col className="navbar-col" xs="1"></Col>
       </Row>
     </>
   );

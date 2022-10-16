@@ -9,18 +9,14 @@
   border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 .tab-img {
-  margin: 3rem;
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
 }
-// .tab {
-//   background-color: #efefef;
-// }
-
-// .nav-tab {
-//   background-color: #efefef;
-// }
 
 .tabs-container {
-  margin-top: 2.5rem;
+  display: flex;
+  margin: 2.5rem;
   margin-bottom: 3rem;
 }
 .tab-row {
@@ -29,6 +25,7 @@
 }
 .tab-inner-container {
   border-radius: 0 5px 5px 5px;
+  padding: 2rem !important;
 }
 .tab-col {
 }

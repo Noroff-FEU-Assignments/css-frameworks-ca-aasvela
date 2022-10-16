@@ -1,12 +1,17 @@
+//custom
 @import 'partials/custom';
-@import 'partials/tabs';
 @import 'partials/navbar';
+
+//bootstrap scss
+@import '~bootstrap/scss/bootstrap';
+
+//custom
+@import 'partials/tabs';
+
 @import 'partials/typography';
 @import 'partials/layout';
 @import 'partials/base';
 @import 'partials/mixin';
 @import 'partials/icons';
 @import 'partials/news';
-@import 'partials/form'; //custom
-//bootstrap scss
-@import '~bootstrap/scss/bootstrap';
+@import 'partials/form';

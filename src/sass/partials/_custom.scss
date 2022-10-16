@@ -6,7 +6,9 @@ $dark: #0a0a0a;
 $dark-grey: #767676;
 
 // $body-bg: #c7c7c7;
-
+$font-family-base: 'Lato', arial;
+$headings-font-family: 'Playfair Display', sans-serif;
+$headings-color: $primary;
 // scss-docs-start theme-colors-map
 $theme-colors: (
   'primary': $primary,
