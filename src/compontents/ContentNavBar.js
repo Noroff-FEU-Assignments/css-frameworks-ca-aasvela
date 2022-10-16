@@ -10,8 +10,8 @@ import Col from 'react-bootstrap/Col';
 function ContentNavBar() {
   return (
     <>
-      <Row>
-        <Col md="1"></Col>
+      <Row className="navbar-row">
+        <Col className="navbar-col" md="1"></Col>
         <Col md="10">
           <Navbar expand="lg">
             <Container className="nav-container">
@@ -44,7 +44,7 @@ function ContentNavBar() {
             </Container>
           </Navbar>
         </Col>
-        <Col md="1"></Col>
+        <Col className="navbar-col" md="1"></Col>
       </Row>
     </>
   );

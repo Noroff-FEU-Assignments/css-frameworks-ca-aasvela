@@ -5,7 +5,7 @@ $light: #efefef;
 $dark: #0a0a0a;
 $dark-grey: #767676;
 
-$body-bg: $light;
+// $body-bg: #c7c7c7;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -20,10 +20,18 @@ $theme-colors: (
 );
 
 $border-radius: 5px;
+// $grid-gutter-width: 0;
 
 $navbar-light-color: $dark;
 $navbar-brand-margin-end: 5rem;
-// $nav-link-padding-y: 1px;
-// $nav-link-padding-x: 1px;
 $nav-tabs-border-width: 0;
 $btn-color: $primary;
+$form-check-input-bg: $primary;
+$input-bg: #ffffff;
+
+.container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}

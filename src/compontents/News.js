@@ -7,18 +7,23 @@ import ImageCard from './ImageCard';
 
 function News() {
   return (
-    <div className="wrapper">
-      <Row>
-        <Col md="1"></Col>
-        <Col md="10">
-          <h2>News</h2>
-          <Container className="home-container"></Container>
-          <ImageCard />
-        </Col>
-        <Col md="1"></Col>
-      </Row>
-      <ContentFooter />
-    </div>
+    <>
+      <div className="wrapper">
+        <Row>
+          <Col md="1"></Col>
+          <Col md="10">
+            <Container className="home-container">
+              <h2>News</h2>
+              <ImageCard />
+            </Container>
+          </Col>
+          <Col md="1"></Col>
+        </Row>
+      </div>
+      <div>
+        <ContentFooter />
+      </div>
+    </>
   );
 }
 

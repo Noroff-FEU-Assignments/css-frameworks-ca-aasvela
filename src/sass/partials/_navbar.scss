@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #e9ecef;
+  background-color: $light !important;
+  margin: 0 !important;
 }
 .nav-container {
   padding: 0;
@@ -33,4 +34,13 @@
 }
 .form-control {
   border-radius: 5px 0 0 5px !important;
+}
+.navbar-row {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: $light;
+}
+.navbar-col {
+  background-color: $light;
+  padding: 0 !important;
 }

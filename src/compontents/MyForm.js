@@ -1,47 +1,42 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 function MyForm() {
-    return (
-      <>
-        <InputGroup className="mb-3">
-          <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-          <Form.Control
-            placeholder="Username"
-            aria-label="Username"
-            aria-describedby="basic-addon1"
-          />
-        </InputGroup>
-  
-        <InputGroup className="mb-3">
-          <Form.Control
-            placeholder="Recipient's username"
-            aria-label="Recipient's username"
-            aria-describedby="basic-addon2"
-          />
-          <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
-        </InputGroup>
-  
-        <Form.Label htmlFor="basic-url">Your vanity URL</Form.Label>
-        <InputGroup className="mb-3">
-          <InputGroup.Text id="basic-addon3">
-            https://example.com/users/
-          </InputGroup.Text>
-          <Form.Control id="basic-url" aria-describedby="basic-addon3" />
-        </InputGroup>
-  
-        <InputGroup className="mb-3">
-          <InputGroup.Text>$</InputGroup.Text>
-          <Form.Control aria-label="Amount (to the nearest dollar)" />
-          <InputGroup.Text>.00</InputGroup.Text>
-        </InputGroup>
-  
-        <InputGroup>
-          <InputGroup.Text>With textarea</InputGroup.Text>
-          <Form.Control as="textarea" aria-label="With textarea" />
-        </InputGroup>
-      </>
-    );
-  }
-  
-  export default MyForm;
+  return (
+    <Container className="contact-form-container shadow p-3 mb-5 rounded">
+      <Form.Label>Name</Form.Label>
+      <InputGroup className="mb-3">
+        <Form.Control id="basic-url" aria-describedby="basic-addon3" />
+      </InputGroup>
+
+      <Form.Label>Email</Form.Label>
+      <InputGroup className="mb-3">
+        <Form.Control id="basic-url" aria-describedby="basic-addon3" />
+      </InputGroup>
+
+      <Form.Label>Website</Form.Label>
+      <InputGroup className="mb-3">
+        <InputGroup.Text id="basic-addon3">https://</InputGroup.Text>
+        <Form.Control id="basic-url" aria-describedby="basic-addon3" />
+      </InputGroup>
+
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Message</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        <Form.Check
+          type="checkbox"
+          label="Allow us to sell your personal details to whomever we want"
+        />
+      </Form.Group>
+      <Button className="form-btn" variant="secondary" type="submit">
+        Submit
+      </Button>
+    </Container>
+  );
+}
+
+export default MyForm;

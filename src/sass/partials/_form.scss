@@ -1,0 +1,27 @@
+// .form {
+//   margin-left: 0;
+// }
+.contact-container {
+  //   margin-left: 0 !important;
+  //   padding-left: 0 !important;
+}
+.contact-form-container {
+  padding: 2rem !important;
+  background-color: $light;
+  border-radius: 0 !important;
+  input textarea {
+    border-radius: 0 !important;
+  }
+}
+.contact-text-container {
+  padding: 2rem;
+}
+.form-check-input {
+  background-color: $primary;
+}
+.form-btn {
+  background-color: $dark-grey !important;
+  border: none !important;
+  color: #ffffff !important;
+  width: 10vw;
+}
